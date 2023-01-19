@@ -1,4 +1,5 @@
 var searchFormEl = document.querySelector("#search-form");
+var formatEl = document.querySelector("#format-input");
 
 function handleSearchFormSubmit(event) {
   event.preventDefault();
