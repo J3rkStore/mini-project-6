@@ -9,6 +9,7 @@ function handleSearchFormSubmit(event) {
 
   // TODO if the user does not enter a search input, present an error in the console prompting them that they need a search input value
   if (!searchInputVal){
+    console.error("Search field cannot be blank")
     alert("Search field cannot be blank")
   }
   // TODO Adujust the var queryString so that the query url uses the var searchInputVal after q= and the var formatInputVal after &format=
